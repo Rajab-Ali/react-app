@@ -12,8 +12,7 @@
     "client": "npm start --prefix react-ecommerce",
     "server": "nodemon index.js",
     "start": "node index.js",
-    "dev":"concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix react-ecommerce && npm start --prefix react-ecommerce"
+    "dev":"concurrently \"npm run server\" \"npm run client\""
 
   },
   "author": "",
